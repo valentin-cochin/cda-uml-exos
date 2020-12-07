@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T14:11:05.237Z" agent="5.0 (Windows)" version="13.10.9" etag="SlwtPZ7uXYT0JhTpFelT" type="github"><diagram id="wjojLwCJhN2it1D2n1Lg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-07T15:04:55.817Z" agent="5.0 (Windows)" etag="kfCrF-AgDQmznpjHW-Ew" version="13.10.9" type="github">
+  <diagram id="wjojLwCJhN2it1D2n1Lg" name="Page-1">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-1" value="&lt;h1&gt;Enoncé&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1- Un client arrive à la caisse avec des articles&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2- Le caissier enregistre le numéro d’identification de chaque article,&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;ainsi que la quantité si celle-ci est supérieure à 1&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3- La caisse affiche le prix de chaque article et son libellé&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 4- Lorsque tous les articles ont été enregistrés, le caissier signale la fin de la vente&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 5- La caisse affiche le total des achats&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 6- Le client choisit son mode de paiement :&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; a- Liquide : le caissier encaisse l’argent et la caisse indique le montant éventuel à rendre au client&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; b- Chèque : le caissier note l’identité du client et la caisse enregistre le montant sur le chèque&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; c- Carte de crédit : un terminal bancaire fait partie de la caisse, il transmet la demande&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;à un centre d’autorisation multi-banques&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 7- La caisse enregistre la vente et imprime un ticket&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 8- Le caissier transmet le ticket imprimé au client&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 9- Un client peut présenter des coupons de réduction avant le paiement.&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;Lorsque le paiement est terminé, la caisse transmet les informations relatives&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;aux articles vendus au système de gestion des stocks.&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;Tous les matins, le responsable du magasin initialise les caisses pour la journée.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="550" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-2" value="Caisse" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="680" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-3" value="&lt;div&gt;Client&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-4" value="Caissier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="850" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-5" value="&lt;div&gt;Responsable&lt;br&gt;du magasin&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-6" value="Enregistrement&lt;br&gt;ID article et quantité" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-7" value="Afficher total&lt;br&gt;des achats" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-8" value="Enregistrer vente" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-10" value="Imprimer ticket" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="670" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-11" value="Utiliser bon de&lt;br&gt;réduction" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-12" value="Système de&lt;br&gt;gestion stocks" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="850" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-13" value="Affichage prix&lt;br&gt;article et libellé" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-14" value="Passer commande" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-16" value="Payer" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="585" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-17" value="Payer par CB" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="670" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-19" value="Payer par liquide" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="670" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-20" value="Payer chèque" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="585" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-22" value="Finaliser vente" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="274" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-23" value="Passer en caisse" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="274" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-24" value="Centre d&#39;autorisation&lt;br&gt;multi-banques" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="850" y="585" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-27" value="Initialiser caisses" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="274" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-28" value="Récupérer ticket" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="580" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rxPYnxUa4khM3_sgLrZv-29" value="Création informations&lt;br&gt;relatives à vente&lt;br&gt;( a redef)" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="134" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
