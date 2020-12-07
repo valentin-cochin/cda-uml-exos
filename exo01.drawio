@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T10:02:19.351Z" agent="5.0 (Windows)" etag="_E87dE7gqU2CgOtJGhQg" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T10:21:33.913Z" agent="5.0 (Windows)" etag="1Su5RkZxP0-GXzx75ufL" version="13.10.9" type="github">
   <diagram id="fj_6yyRCk6_pBZ1UsKmy" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PqAbD0kS9idpESj6kXeT-1" value="Club équestre" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="240" width="30" height="60" as="geometry" />
+          <mxGeometry x="70" y="240" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqAbD0kS9idpESj6kXeT-3" value="&lt;h1&gt;Enoncé&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Un club équestre offre les prestations d’hébergement des chevaux, de cours d’équitation, de balades.&lt;/p&gt;&lt;p&gt;&amp;nbsp;Seuls les adhérents ont accès aux cours et aux hébergements.&lt;br&gt;&amp;nbsp;Les autres clients ont la possibilité de faire des balades et d’adhérer.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="10" width="540" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PqAbD0kS9idpESj6kXeT-13" value="&lt;div align=&quot;center&quot;&gt;Cours&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="PqAbD0kS9idpESj6kXeT-13" value="&lt;div align=&quot;center&quot;&gt;Prendre des cours&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="190" y="310" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PqAbD0kS9idpESj6kXeT-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="PqAbD0kS9idpESj6kXeT-18" target="PqAbD0kS9idpESj6kXeT-15">
@@ -28,28 +28,28 @@
         <mxCell id="PqAbD0kS9idpESj6kXeT-15" value="Clients" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PqAbD0kS9idpESj6kXeT-26" value="Hébergement" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="PqAbD0kS9idpESj6kXeT-26" value="Héberger des &lt;br&gt;chevaux" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="190" y="400" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PqAbD0kS9idpESj6kXeT-29" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PqAbD0kS9idpESj6kXeT-26">
+        <mxCell id="PqAbD0kS9idpESj6kXeT-29" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PqAbD0kS9idpESj6kXeT-1" target="PqAbD0kS9idpESj6kXeT-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="135" y="270" as="sourcePoint" />
             <mxPoint x="190" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqAbD0kS9idpESj6kXeT-30" value="Adhésion" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="PqAbD0kS9idpESj6kXeT-30" value="Adhérer" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="190" y="220" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PqAbD0kS9idpESj6kXeT-32" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PqAbD0kS9idpESj6kXeT-30">
+        <mxCell id="PqAbD0kS9idpESj6kXeT-32" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PqAbD0kS9idpESj6kXeT-1" target="PqAbD0kS9idpESj6kXeT-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="135" y="270" as="sourcePoint" />
             <mxPoint x="190" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqAbD0kS9idpESj6kXeT-33" value="Balades" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="PqAbD0kS9idpESj6kXeT-33" value="Se balader" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="190" y="130" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PqAbD0kS9idpESj6kXeT-34" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PqAbD0kS9idpESj6kXeT-33">
+        <mxCell id="PqAbD0kS9idpESj6kXeT-34" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PqAbD0kS9idpESj6kXeT-1" target="PqAbD0kS9idpESj6kXeT-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="135" y="270" as="sourcePoint" />
             <mxPoint x="190" y="260" as="targetPoint" />
