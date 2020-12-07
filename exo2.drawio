@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T10:57:17.507Z" agent="5.0 (Windows)" etag="B55SU20nuEN5Lyy291Q6" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T11:15:17.037Z" agent="5.0 (Windows)" etag="wxEAmx9g0o1ykzU3OByU" version="13.10.9" type="github">
   <diagram id="uzbKtm6OhF9Lw1mfzs1N" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,7 @@
         </mxCell>
         <mxCell id="jdVANcnuj8nwFvmUPl1E-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jdVANcnuj8nwFvmUPl1E-4" target="jdVANcnuj8nwFvmUPl1E-18">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="430" as="sourcePoint" />
             <mxPoint x="55" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -26,7 +27,7 @@
         </mxCell>
         <mxCell id="jdVANcnuj8nwFvmUPl1E-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;fontSize=12;" edge="1" parent="1" source="jdVANcnuj8nwFvmUPl1E-18" target="jdVANcnuj8nwFvmUPl1E-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="600" as="sourcePoint" />
+            <mxPoint x="55" y="590" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jdVANcnuj8nwFvmUPl1E-18" value="Pompiste" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;align=center;" vertex="1" parent="1">
