@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T12:21:08.772Z" agent="5.0 (Windows)" version="13.10.9" etag="AhKNe-tajSc7P8_FatuX" type="github"><diagram id="8vyCQJu3KVrM92SzBfnr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-07T13:08:14.052Z" agent="5.0 (Windows)" etag="tBWC4rJR31ihWpEC47_a" version="13.10.9" type="github">
+  <diagram id="8vyCQJu3KVrM92SzBfnr" name="Page-1">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-1" value="&lt;h1&gt;Enoncé&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;On cherche à modéliser un distributeur automatique de billets (DAB). Ce distributeur sera utilisé par des clients qui veulent pouvoir choisir une opération parmi le retrait d’argent (rapide ou normal) et la consultation du solde de leur compte.&lt;br&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Pour chaque opération, il faudra s’être identifié. Le distributeur devra permettre d’éditer des tickets pour chaque opération si l’utilisateur le souhaite.&lt;br&gt;Un système central extérieur permettra de vérifier le solde des comptes dans le cas d’un retrait important, et de fournir les informations nécessaires dans le cas d’une consultation.&lt;br&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Proposez un diagramme de cas d’utilisation pour modéliser les fonctionnalités attendues du système DAB.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="550" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-2" value="DAB" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="800" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-3" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-4" value="Éditer des tickets" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-5" value="Service&lt;br&gt;extérieur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-8" value="Retirer de l&#39;argent" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-17" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=12;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-9" target="EQ0QPiyv0ompnkGPwg2R-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-9" value="Retrait rapide" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-18" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontSize=12;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-10" target="EQ0QPiyv0ompnkGPwg2R-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-24" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontSize=12;dashed=1;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-10" target="EQ0QPiyv0ompnkGPwg2R-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-10" value="Retrait normal" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-20" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontSize=12;dashed=1;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-11" target="EQ0QPiyv0ompnkGPwg2R-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-30" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontSize=12;dashed=1;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-11" target="EQ0QPiyv0ompnkGPwg2R-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-11" value="Consulter solde du&lt;br&gt;compte" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-19" value="S&#39;identifier" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-21" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-4" target="EQ0QPiyv0ompnkGPwg2R-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="420" as="sourcePoint" />
+            <mxPoint x="240" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-22" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="365" as="sourcePoint" />
+            <mxPoint x="270" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-23" value="Vérification validité&lt;br&gt;opération" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="430" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-27" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontSize=12;dashed=1;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="425" as="sourcePoint" />
+            <mxPoint x="760" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-29" value="Fournir informations&lt;br&gt;consultation" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-33" value="" style="endArrow=none;html=1;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-19" target="EQ0QPiyv0ompnkGPwg2R-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="430" as="sourcePoint" />
+            <mxPoint x="550" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-34" value="" style="endArrow=none;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-29" target="EQ0QPiyv0ompnkGPwg2R-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="430" as="sourcePoint" />
+            <mxPoint x="550" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ0QPiyv0ompnkGPwg2R-35" value="" style="endArrow=none;html=1;fontSize=12;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EQ0QPiyv0ompnkGPwg2R-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="326.27" as="sourcePoint" />
+            <mxPoint x="960" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
