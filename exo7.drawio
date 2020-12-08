@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T12:52:23.238Z" agent="5.0 (Windows)" etag="CfWHwSbIxAVHwptGX5rD" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T13:12:25.785Z" agent="5.0 (Windows)" etag="kcfVmEbpWf5v48c-Qjd4" version="13.10.9" type="github">
   <diagram id="YAnKVHSSUDGrJ1rcTw2G" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="uPZP0e7Fra9R2fEPCt0I-22" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uPZP0e7Fra9R2fEPCt0I-19">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uPZP0e7Fra9R2fEPCt0I-26" value="possède W" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uPZP0e7Fra9R2fEPCt0I-23">
+        <mxCell id="uPZP0e7Fra9R2fEPCt0I-26" value="possède W" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uPZP0e7Fra9R2fEPCt0I-23">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="330" y="220" as="sourcePoint" />
             <mxPoint x="200" y="105" as="targetPoint" />
