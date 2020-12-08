@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T14:58:16.875Z" agent="5.0 (Windows)" version="13.10.9" etag="45z9CKhfoxjfa2cGLIvy" type="github"><diagram id="Ql9ofCExtieZsZHyatx5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-08T20:21:45.982Z" agent="5.0 (Windows)" etag="3V4EADDqfDsMHHBkm2xZ" version="13.10.9" type="github">
+  <diagram id="Ql9ofCExtieZsZHyatx5" name="Page-1">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-1" value="&lt;h1&gt;Enoncé&lt;/h1&gt;&lt;p&gt;Chaque chambre dispose d&#39;une salle d&#39;eau : douche ou bien baignoire.&lt;br&gt;Un hôtel héberge des personnes.&lt;/p&gt;&lt;p&gt;Il peut employer du personnel et il est impérativement dirigé par un directeur. On ne connaît que le nom et le prénom des employés, des directeurs et des occupants. Certaines personnes sont des enfants et d&#39;autres des adultes (faire travailler des enfants est interdit).&lt;/p&gt;&lt;p&gt;Un hôtel a les caractéristiques suivantes : une adresse, un nombre de pièces et une catégorie.&lt;/p&gt;&lt;p&gt;Une chambre est caractérisée par le nombre de lits qu&#39;elle contient, son prix et son numéro. On veut pouvoir savoir qui occupe quelle chambre à quelle date. Pour chaque jour de l&#39;année, on veut pouvoir calculer le loyer de chaque chambre en fonction de son prix et de son occupation (le loyer est nul si la chambre est inoccupée). La somme de ces loyers permet de calculer le chiffre d&#39;affaires de l&#39;hôtel entre deux dates.&lt;br&gt;&lt;br&gt;Question : Donnez une diagramme de classes pour modéliser le problème de l&#39;hôtel.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="700" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-10" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IjWa1C3EZQJ_gy-Ar5tk-10">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="IjWa1C3EZQJ_gy-Ar5tk-10">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IjWa1C3EZQJ_gy-Ar5tk-10">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-14" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-15" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IjWa1C3EZQJ_gy-Ar5tk-14">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="IjWa1C3EZQJ_gy-Ar5tk-14">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="IjWa1C3EZQJ_gy-Ar5tk-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IjWa1C3EZQJ_gy-Ar5tk-14">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
