@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T11:08:55.277Z" agent="5.0 (Windows)" version="13.11.0" etag="o0AQCV2eeL0v1crum3tZ" type="github"><diagram id="2vRKxQh1nv8atWItVD8Z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-09T11:12:51.868Z" agent="5.0 (Windows)" etag="ILzvSh3oOnfqtVGAoDpB" version="13.11.0" type="github">
+  <diagram id="2vRKxQh1nv8atWItVD8Z" name="Page-1">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5JL1VIRSzCmVdXq5I1F--1" value="&lt;h1&gt;Enoncé&lt;/h1&gt;&lt;p&gt;appli MonAuto :&lt;br&gt;Une réparation est toujours relative à un véhicule. La facture est envoyée au propriétaire (qui est toujours un client) du véhicule ou à une compagnie d&#39;assurance en cas d&#39;accident; une compagnie d&#39;assurance est un client pour le garage. En cas de réparation en garantie, aucune facture n&#39;est envoyée.&lt;br&gt;&lt;/p&gt;&lt;p&gt;Le modèle doit contenir les renseignements qui permettent de faire la facture, selon les règles suivantes :&lt;br&gt;- Un véhicule vendu par MonAuto bénéficie d&#39;une année de garantie à partir de la date de livraison.&lt;br&gt;- Pour bénéficier d&#39;une réparation sous garantie, le client doit amener son véhicule à l&#39;atelier avant l&#39;expiration du délai de garantie. En fin de période de garantie, l&#39;atelier peut être surchargé et le Chef d&#39;atelier ne pourra pas toujours effectuer la réparation avant la date d&#39;expiration. &lt;br&gt;- Pour résoudre ce dilemme et éviter toute réclamation, lorsqu&#39;un client prend un rendez-vous pour effectuer une réparation en garantie le Chef d&#39;atelier prépare une fiche de réparation &quot;garantie&quot; et y indique la date de la demande de rendez-vous du client, en plus des 2 dates de réception et restitution du véhicule pour la réparation; cette date de demande de rendez-vous sera utilisée comme critère de réparation en garantie.&lt;/p&gt;&lt;p&gt;Quelques précisions :&lt;br&gt;Nous ne gérons pas l&#39;historique des changements de propriétaires des voitures; chaque fois qu&#39;une voiture&lt;br&gt;change de propriétaire, un nouveau véhicule sera créé avec indication de la nouvelle immatriculation, du&lt;br&gt;nouveau propriétaire et de la date de livraison s&#39;il s&#39;agit d&#39;une vente de MonAuto.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="810" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
