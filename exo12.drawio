@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T13:02:25.416Z" agent="5.0 (Windows)" etag="sNMxEB-ndzU33mVF1isW" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-09T13:04:25.324Z" agent="5.0 (Windows)" etag="dJLhdrittQP_hJty279C" version="13.11.0" type="github">
   <diagram id="2vRKxQh1nv8atWItVD8Z" name="Page-1">
     <mxGraphModel dx="1278" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,7 +217,7 @@
             <mxPoint x="886" y="406" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5JL1VIRSzCmVdXq5I1F--65" value="est liée ^" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.488;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="5JL1VIRSzCmVdXq5I1F--52" target="5JL1VIRSzCmVdXq5I1F--33">
+        <mxCell id="5JL1VIRSzCmVdXq5I1F--65" value="possède ^" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.488;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="5JL1VIRSzCmVdXq5I1F--52" target="5JL1VIRSzCmVdXq5I1F--33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="960" as="sourcePoint" />
             <mxPoint x="710" y="960" as="targetPoint" />
